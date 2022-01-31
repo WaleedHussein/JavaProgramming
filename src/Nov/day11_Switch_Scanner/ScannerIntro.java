@@ -1,0 +1,19 @@
+package Nov.day11_Switch_Scanner;
+import java.util.Scanner;
+public class ScannerIntro {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("inter an integer");
+        int num1 = input.nextInt();
+        System.out.println("inter decimel");
+        double num2 = input.nextDouble();
+
+
+
+        System.out.println(num1);
+        System.out.println(num2);
+        System.out.println(num1*num2);
+        input.close(); // this will close scanner and stop it from keep running
+
+    }
+}
