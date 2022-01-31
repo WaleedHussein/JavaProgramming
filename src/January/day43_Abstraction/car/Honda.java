@@ -5,9 +5,10 @@ public class Honda extends Car {
         super(brand, model, color, year, price);
     }
 
-
-
-
+    @Override
+    public void start() {
+        System.out.println("Twist key to start");
+    }
 
 
 }
