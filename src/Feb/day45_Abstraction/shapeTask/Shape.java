@@ -3,6 +3,7 @@ package Feb.day45_Abstraction.shapeTask;
 public abstract class Shape {
 
     private final String name;
+   // public boolean getSide;
 
 
     public Shape(String name) {
